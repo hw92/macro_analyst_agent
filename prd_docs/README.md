@@ -122,6 +122,20 @@ This folder contains comprehensive planning and design documentation for the Mac
 
 ---
 
+### [TOOLS_STRATEGY.md](TOOLS_STRATEGY.md)
+**Tool Ecosystem for the AI Agent**
+
+- Tool design philosophy (single responsibility, composability)
+- 5 core MVP tools (retrieve, data, ontology, portfolio, actions)
+- Complete tool schemas (LangChain & OpenAI formats)
+- Tool usage patterns (data verification, event context, personalization)
+- Error handling and reliability strategies
+- Testing framework and performance benchmarks
+
+**Use this for**: Implementing and testing the agent's tool ecosystem.
+
+---
+
 ## 📂 Quick Reference
 
 | Document | Purpose | Audience | Phase |
@@ -134,6 +148,7 @@ This folder contains comprehensive planning and design documentation for the Mac
 | PROMPT_STRATEGY.md | Agent design | AI Engineers, Architects | Design |
 | SYSTEM_PROMPTS.md | Production prompts | AI Engineers | Implementation |
 | REASONING_FRAMEWORKS.md | Analysis playbooks | AI Engineers, PM | Implementation |
+| TOOLS_STRATEGY.md | Tool ecosystem | AI Engineers | Implementation |
 
 ---
 
@@ -158,6 +173,7 @@ This folder contains comprehensive planning and design documentation for the Mac
 | PROMPT_STRATEGY.md | 1.0 | 2025-11-18 | ✅ Complete |
 | SYSTEM_PROMPTS.md | 1.0 | 2025-11-18 | ✅ Complete |
 | REASONING_FRAMEWORKS.md | 1.0 | 2025-11-18 | ✅ Complete |
+| TOOLS_STRATEGY.md | 1.0 | 2025-11-18 | ✅ Complete |
 
 ---
 

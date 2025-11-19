@@ -40,6 +40,7 @@ Comprehensive project documentation is available in the `prd_docs/` directory:
 - **[PROMPT_STRATEGY.md](prd_docs/PROMPT_STRATEGY.md)** - Comprehensive framework for making AI think like an economist
 - **[SYSTEM_PROMPTS.md](prd_docs/SYSTEM_PROMPTS.md)** - Production-ready prompts for immediate implementation
 - **[REASONING_FRAMEWORKS.md](prd_docs/REASONING_FRAMEWORKS.md)** - Macro analysis operational playbooks and decision trees
+- **[TOOLS_STRATEGY.md](prd_docs/TOOLS_STRATEGY.md)** - Complete tool ecosystem design and implementation guide
 
 See the **[prd_docs/README.md](prd_docs/README.md)** for a complete index and quick reference guide.
 
