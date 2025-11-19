@@ -27,11 +27,21 @@ An AI-powered macro economist agent that ingests economic news, data, and resear
 
 Comprehensive project documentation is available in the `prd_docs/` directory:
 
+### Planning & Architecture
 - **[PROJECT_PLAN.md](prd_docs/PROJECT_PLAN.md)** - Detailed 8-week development plan with phases, tasks, and deliverables
 - **[DEVELOPMENT_ROADMAP.md](prd_docs/DEVELOPMENT_ROADMAP.md)** - Day-by-day roadmap with milestones, dependencies, and team structure
+
+### Data Architecture
 - **[DATA_STRATEGY.md](prd_docs/DATA_STRATEGY.md)** - Complete data ingestion and processing framework
 - **[DATA_SCHEMA.md](prd_docs/DATA_SCHEMA.md)** - Database schema with 11+ tables for PostgreSQL/Supabase
 - **[DATA_SOURCES.md](prd_docs/DATA_SOURCES.md)** - Detailed ingestion guides for FRED, FOMC, Bloomberg, and more
+
+### AI Agent & Prompt Engineering
+- **[PROMPT_STRATEGY.md](prd_docs/PROMPT_STRATEGY.md)** - Comprehensive framework for making AI think like an economist
+- **[SYSTEM_PROMPTS.md](prd_docs/SYSTEM_PROMPTS.md)** - Production-ready prompts for immediate implementation
+- **[REASONING_FRAMEWORKS.md](prd_docs/REASONING_FRAMEWORKS.md)** - Macro analysis operational playbooks and decision trees
+
+See the **[prd_docs/README.md](prd_docs/README.md)** for a complete index and quick reference guide.
 
 ---
 
