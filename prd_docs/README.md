@@ -79,6 +79,49 @@ This folder contains comprehensive planning and design documentation for the Mac
 
 ---
 
+## 🧠 AI Agent & Prompt Engineering
+
+### [PROMPT_STRATEGY.md](PROMPT_STRATEGY.md)
+**Comprehensive Prompt Engineering Framework**
+
+- Core philosophy: Making an AI think like an economist
+- The economist's mind (frameworks, models, mental toolkits)
+- 7-layer prompt architecture
+- Reasoning frameworks and structured analysis
+- Behavioral guardrails (DOs and DON'Ts)
+- Testing and iteration methodology
+
+**Use this for**: Understanding how the AI agent is designed to think and reason.
+
+---
+
+### [SYSTEM_PROMPTS.md](SYSTEM_PROMPTS.md)
+**Production-Ready System Prompts**
+
+- MACRO_ECONOMIST_CORE: Main identity and guidelines
+- Mode-specific prompts (Chat, Briefing, Actions)
+- Complete tool descriptions
+- Few-shot examples with reasoning chains
+- Implementation guide for `src/agent/prompts.py`
+
+**Use this for**: Copy-paste ready prompts for immediate implementation.
+
+---
+
+### [REASONING_FRAMEWORKS.md](REASONING_FRAMEWORKS.md)
+**Macro Analysis Operational Playbooks**
+
+- The 5-Question Framework (detailed step-by-step)
+- Causal chain analysis (transmission mechanisms)
+- Macro regime classification (inflation × growth matrix)
+- Portfolio impact mapping (asset-class-by-asset-class)
+- Decision trees for different scenarios
+- Action generation with risk considerations
+
+**Use this for**: Understanding the structured reasoning process the agent follows.
+
+---
+
 ## 📂 Quick Reference
 
 | Document | Purpose | Audience | Phase |
@@ -88,6 +131,9 @@ This folder contains comprehensive planning and design documentation for the Mac
 | DATA_STRATEGY.md | Data architecture | Engineers, Architects | Design |
 | DATA_SCHEMA.md | Database design | Backend Engineers | Implementation |
 | DATA_SOURCES.md | Ingestion guides | Data Engineers | Implementation |
+| PROMPT_STRATEGY.md | Agent design | AI Engineers, Architects | Design |
+| SYSTEM_PROMPTS.md | Production prompts | AI Engineers | Implementation |
+| REASONING_FRAMEWORKS.md | Analysis playbooks | AI Engineers, PM | Implementation |
 
 ---
 
@@ -95,7 +141,8 @@ This folder contains comprehensive planning and design documentation for the Mac
 
 1. **For Project Managers**: Start with `PROJECT_PLAN.md` and `DEVELOPMENT_ROADMAP.md`
 2. **For Backend Engineers**: Review `DATA_STRATEGY.md`, `DATA_SCHEMA.md`, and `DATA_SOURCES.md`
-3. **For New Team Members**: Read all documents in order listed above
+3. **For AI Engineers**: Study `PROMPT_STRATEGY.md`, `SYSTEM_PROMPTS.md`, and `REASONING_FRAMEWORKS.md`
+4. **For New Team Members**: Read all documents in order listed above
 
 ---
 
@@ -108,6 +155,9 @@ This folder contains comprehensive planning and design documentation for the Mac
 | DATA_STRATEGY.md | 1.0 | 2025-11-18 | ✅ Complete |
 | DATA_SCHEMA.md | 1.0 | 2025-11-18 | ✅ Complete |
 | DATA_SOURCES.md | 1.0 | 2025-11-18 | ✅ Complete |
+| PROMPT_STRATEGY.md | 1.0 | 2025-11-18 | ✅ Complete |
+| SYSTEM_PROMPTS.md | 1.0 | 2025-11-18 | ✅ Complete |
+| REASONING_FRAMEWORKS.md | 1.0 | 2025-11-18 | ✅ Complete |
 
 ---
 
